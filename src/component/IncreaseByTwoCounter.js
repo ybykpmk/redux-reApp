@@ -17,7 +17,7 @@ class IncreaseByTwoCounter extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-    return { actions: bindActionCreators(increaseByTwoCounter, dispatch) }
+    return { actions: bindActionCreators(IncreaseByTwoCounter, dispatch) }
 }
 
 export default connect(mapDispatchToProps)(IncreaseByTwoCounter);
