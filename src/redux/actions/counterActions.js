@@ -11,6 +11,11 @@ export const decreaseCounter=()=>({
     payload:1
 })
 
+export const decreaseByThreeCounter=()=>({
+    type:actionTypes.DECREASE_BY_THREE_COUNTER,
+    payload:3
+})
+
 export const increaseByTwoCounter=()=>({
     type:actionTypes.INCREASE_BY_TWO_COUNTER,
     payload:2

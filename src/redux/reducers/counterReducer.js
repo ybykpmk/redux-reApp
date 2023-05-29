@@ -7,6 +7,8 @@ const counterReducer = (state = 0, action) => {
             return (newState = state + action.payload)
         case actionTypes.DECREASE_COUNTER:
             return (newState = state - action.payload)
+        case actionTypes.DECREASE_BY_THREE_COUNTER:
+            return (newState = state - action.payload)
         case actionTypes.INCREASE_BY_TWO_COUNTER:
             return (newState = state + action.payload)
         default:
