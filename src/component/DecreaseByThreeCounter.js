@@ -18,7 +18,7 @@ class DecreaseByThreeCounter extends Component{
 
 
 function mapDispatchToProps(dispatch) {
-    return { actions: bindActionCreators(DecreaseByThreeCounter, dispatch) }
+    return { actions: bindActionCreators(decreaseByThreeCounter, dispatch) }
 }
 
 export default connect(mapDispatchToProps)(DecreaseByThreeCounter);

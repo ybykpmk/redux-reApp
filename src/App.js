@@ -4,6 +4,7 @@ import IncreaseCounter from './component/IncreaseCounter';
 import DecreaseCounter from './component/DecreaseCounter';
 import IncreaseByTwoCounter  from './component/IncreaseByTwoCounter';
 import DecreaseByThreeCounter from './component/DecreaseByThreeCounter';
+import IncreaseByUserSetCounter from './component/IncreaseByUserSetCounter';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <IncreaseByTwoCounter></IncreaseByTwoCounter>
       <br/><br/>
       <DecreaseByThreeCounter></DecreaseByThreeCounter>
+      <br/><br/>
+      <IncreaseByUserSetCounter></IncreaseByUserSetCounter>
     </div>
   );
 }
